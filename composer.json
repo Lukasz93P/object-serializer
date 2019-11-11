@@ -1,0 +1,21 @@
+{
+    "name": "lukasz93p/object-serializer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lukasz93P",
+            "email": "lukasz9.3@interia.pl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lukasz93P\\objectSerializer\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.3",
+        "doctrine/annotations": "^1.8",
+        "jms/serializer": "^3.3",
+        "ext-json": "*"
+    }
+}
