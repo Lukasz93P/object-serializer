@@ -94,7 +94,8 @@ class ObjectSerializerTest extends TestCase
         $this->objectSerializer->deserialize('{"someKey":"someValue", "data":{}}');
     }
 
-    public function testShouldThrowSerializedObjectIdentificationKeyNotMappedToClassWhenMappingForSerializedObjectWasNotProvidedDuringSerializerConstruction()
+    public function testShouldThrowSerializedObjectIdentificationKeyNotMappedToClassWhenMappingForSerializedObjectWasNotProvidedDuringSerializerConstruction(
+    ): void
     {
         $serializedObject = $this->objectSerializer->serialize(
             new class implements SerializableObject
