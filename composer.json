@@ -1,11 +1,20 @@
 {
     "name": "lukasz93p/object-serializer",
+    "description": "Package which allows easy serialization and deserialization of php objects using JSON format, setters or public properties are not needed.",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Lukasz93P",
             "email": "lukasz9.3@interia.pl"
         }
+    ],
+    "keywords": [
+        "serializer",
+        "serialization",
+        "deserializer",
+        "deserialization",
+        "object serialization"
     ],
     "autoload": {
         "psr-4": {
@@ -20,5 +29,6 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^8.4"
-    }
+    },
+    "minimum-stability": "stable"
 }
