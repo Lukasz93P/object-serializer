@@ -6,13 +6,13 @@ https://packagist.org/packages/jms/serializer
 So **jms/serializer**'s annotations are a must for this package - here You can read about them:
 http://jmsyst.com/libs/serializer/master/reference/annotations
 
-#Why to use this package?
+## Why to use this package?
 - It gives You very easy to use tool to convert php objects into JSON and inversely.
 - Public properties, constructor or setters are not required so converted objects can utilize full encapsulation.
 - Native php serialization is not used so serialized objects are not language dependent.
 - Supports very rich spectrum off properties types (including class instances).
 
-#Hot to use?
+## Hot to use?
 1 Class which You want to serialize have to implement 
 ```php
 <?php
@@ -50,7 +50,7 @@ You should do this through ```ObjectSerializerFactory::create``` method. That me
 which is used as mapping between result of ```SerializableObject::classIdentificationKey``` and fully qualified class name for each
 class implementing ```SerializableObject```.
 
-#Example
+## Example
 ```php
 <?php
 
