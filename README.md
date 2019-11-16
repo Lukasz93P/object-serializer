@@ -10,7 +10,7 @@ http://jmsyst.com/libs/serializer/master/reference/annotations
 - It gives You very easy to use tool to convert php objects into JSON and inversely.
 - Public properties, constructor or setters are not required so converted objects can utilize full encapsulation.
 - Native php serialization is not used so serialized objects are not language dependent.
-- Supports very rich spectrum off properties types (including class instances).
+- Supports very rich spectrum of properties types (including class instances).
 
 ## Hot to use?
 1 Class which You want to serialize have to implement 
@@ -25,7 +25,7 @@ interface SerializableObject
 {
     /**
     * Unique identifier(per class, not per instance) used to identify serialized object class
-    * Event if You change class name/it's namespace after object serialization it still can be deserialized properly
+    * Event if You change class name/namespace after object serialization it still can be deserialized properly
     **/
     public function classIdentificationKey(): string;
 }
